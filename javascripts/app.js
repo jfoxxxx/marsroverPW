@@ -62,18 +62,18 @@ function moveForward(myRover){
   // }
 }
 
-function recieveCommand(myRover){
-  switch (myRover){
+function recieveCommand(command){
+  switch (command){
   case "f": moveForward(myRover);{
-    console.log("moveForward was called");
+//     console.log("moveForward was called");
   }
   break;
   case "r": turnRight(myRover);{
-    console.log("turnRight was called!");
+//     console.log("turnRight was called!");
     }
   break;
   case "l": turnLeft(myRover);{
-    console.log("turnLeft was called!");
+//     console.log("turnLeft was called!");
   }
   }
 }
